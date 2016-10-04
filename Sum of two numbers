@@ -1,0 +1,23 @@
+/*
+Author: erdemtugs01
+Problem: Finding summaries of given cases
+Problem Link: http://www.spoj.com/problems/CHITEST1/
+*/
+
+#include <cstdio>
+#include <iostream>
+#include <algorithm>
+#include <math.h>
+using namespace std;
+
+int main(){
+	int n; 
+	double a, b; 
+	scanf ("%d", &n); //determinning how many cases do we have
+	for (int i = 0; i < n; i++){ //loop n times. (0 -> n) = n times
+		scanf ("%lf%lf", &a, &b); //scanning our variables n times
+		cout << a+b << endl; //printing sum
+		//printf ("%.lf", a+b);  used cout because i don't know how to use printf in "double situation"
+	}
+	return 0;
+}
