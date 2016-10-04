@@ -1,0 +1,11 @@
+#include <cstdio>
+
+int main(){
+  int a;  //declaration of variables
+	while (1){  //infinite loop where we will scan number a.
+		scanf ("%d", &a); //scanning process
+		if (a==42) break; // if our number equals 42 we break the loop
+		printf("%d\n", a); // printing all scanned numbers till a
+	}
+	return 0;
+}
